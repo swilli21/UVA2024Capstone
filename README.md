@@ -21,6 +21,10 @@ There are 4 tables in the dataset that can be grouped into two categories  disch
 # Evaluation
 
 
+# Sponsor : Deloitte
+<img width="487" alt="Screenshot 2024-07-04 at 6 58 27 PM" src="https://github.com/swilli21/UVA2024Capstone/assets/51794492/c4c38a31-5999-41e2-ae69-df09738bb175">
+
+
 
 # Results
 - Aim: Streamlined Analysis and detailed summaries of medical records and qualtity of patient care with MedLM
