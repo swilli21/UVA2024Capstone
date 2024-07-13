@@ -48,6 +48,6 @@ There are 4 tables in the dataset that can be grouped into two categories  disch
 
 # Reference
 - https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry
-- 
+- https://cloud.google.com/vertex-ai/generative-ai/docs/medlm/medlm-prompts
 
 
