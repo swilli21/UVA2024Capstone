@@ -1,4 +1,10 @@
 # Introduction
+Working with Deloitte to improve provider search
+
+Healthcare organizations are often bogged down with administrative tasks and processes related to documentation, care navigation, and member engagement. 
+Deloitte, Google Cloud, and healthcare leaders are piloting MedLM’s capabilities to make it easier for care teams to discover information from provider directories and benefits documents. MedLM offers flexibility to healthcare organizations and their different needs. Healthcare organizations are exploring the use of AI for a range of applications, from basic tasks to complex workflows.
+The development of these models has been informed by specific healthcare and life sciences customer needs, such as answering a healthcare provider’s medical questions and drafting summaries. 
+
 This project aims to test whether using MedLM for the automated summarization of structured and semi-structured medical data will lead to more efficient and accurate extraction of patient information. By creating comprehensive and concise summaries that capture essential details about a patient's medical history, current state, and treatment protocols, contributing to enhanced patient care and management.
 
 # Data
@@ -36,9 +42,12 @@ There are 4 tables in the dataset that can be grouped into two categories  disch
 # Results
 - Aim: Streamlined Analysis and detailed summaries of medical records and qualtity of patient care with MedLM
 
-# Reference
-
 
 # Sponsor : Deloitte
 <img width="487" alt="Screenshot 2024-07-04 at 6 58 27 PM" src="https://github.com/swilli21/UVA2024Capstone/assets/51794492/c4c38a31-5999-41e2-ae69-df09738bb175">
+
+# Reference
+- https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry
+- 
+
 
