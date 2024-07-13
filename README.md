@@ -1,5 +1,5 @@
 # Introduction
-Working with Deloitte to improve provider search
+Google and Deloitte working together to improve provider search
 
 Healthcare organizations are often bogged down with administrative tasks and processes related to documentation, care navigation, and member engagement. 
 Deloitte, Google Cloud, and healthcare leaders are piloting MedLM’s capabilities to make it easier for care teams to discover information from provider directories and benefits documents. MedLM offers flexibility to healthcare organizations and their different needs. Healthcare organizations are exploring the use of AI for a range of applications, from basic tasks to complex workflows.
