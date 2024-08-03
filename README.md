@@ -11,13 +11,13 @@ This project aims to test whether using MedLM for the automated summarization of
 The Medical Information Mart for Intensive Care (MIMIC) database provided critical care data for over 2.3 million Radiology Reports and 40,000 patient care records of deidentified data.
 
 # Ethics 
-- Responsible AI
+- Responsible AI: 
 Safety best practices 
 Large language models (LLMs) can translate language, summarize text, generate creative writing, generate code, power chatbots and virtual assistants, and complement search engines and recommendation systems. At the same time, as an early-stage technology, its evolving capabilities and uses create potential for misapplication, misuse, and unintended or unforeseen consequences. Large language models can generate output that you don't expect, including text that's offensive, insensitive, or factually incorrect.
 
 Link - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/responsible-ai
 
-- Data Usage
+- Data Usage : 
 The collection of patient information and creation of the research resource was reviewed by the Institutional Review Board at the Beth Israel Deaconess Medical Center, who granted a waiver of informed consent and approved the data sharing initiative.
 
 ### MIMIC-III
@@ -59,7 +59,10 @@ Bleu and Rogue Scores
 
 
 # Results
-- Aim: Streamlined Analysis and detailed summaries of medical records and qualtity of patient care with MedLM
+- Aim:
+  1. Streamlined Analysis
+  2. detailed summaries of medical records 
+  3. qualtity of patient care with MedLM
 
 
 
