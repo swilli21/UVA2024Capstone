@@ -51,11 +51,16 @@ To interact with the MedLM models, you send natural language instructions, also 
 
 -- Interact with MedLM API using: Vertex AI SDK for Python
 
--- Install and authorize Google Cloud SDK ; Google Cloud Client : https://cloud.google.com/sdk/docs/install-sdk#linux
+-- Install Google Cloud AI Platform and authorize Google Cloud Client
+
+-- 
 
 # Evaluation
-Cosine Similarity
-
+Weights            |Cosine Similarity      |
+                   |Fine Tuned | Base Model|
+Keyword            |           |           |
+Vector             |           |           |
+Multimodal         |           |           |
 
 Bleu and Rogue Scores
 
@@ -74,5 +79,6 @@ Bleu and Rogue Scores
 # Reference
 - https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry
 - https://cloud.google.com/vertex-ai/generative-ai/docs/medlm/medlm-prompts
+- https://cloud.google.com/sdk/docs/install-sdk#linux
 
 
