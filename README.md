@@ -8,7 +8,17 @@ The development of these models has been informed by specific healthcare and lif
 This project aims to test whether using MedLM for the automated summarization of structured and semi-structured medical data will lead to more efficient and accurate extraction of patient information. By creating comprehensive and concise summaries that capture essential details about a patient's medical history, current state, and treatment protocols, contributing to enhanced patient care and management.
 
 # Data
-The Medical Information Mart for Intensive Care (MIMIC)-III database provided critical care data for over 2.3 million Radiology Reports and 40,000 patient care records of deidentified data.
+The Medical Information Mart for Intensive Care (MIMIC) database provided critical care data for over 2.3 million Radiology Reports and 40,000 patient care records of deidentified data.
+
+# Ethics 
+- Responsible AI
+Safety best practices 
+Large language models (LLMs) can translate language, summarize text, generate creative writing, generate code, power chatbots and virtual assistants, and complement search engines and recommendation systems. At the same time, as an early-stage technology, its evolving capabilities and uses create potential for misapplication, misuse, and unintended or unforeseen consequences. Large language models can generate output that you don't expect, including text that's offensive, insensitive, or factually incorrect.
+
+Link - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/responsible-ai
+
+- Data Usage
+The collection of patient information and creation of the research resource was reviewed by the Institutional Review Board at the Beth Israel Deaconess Medical Center, who granted a waiver of informed consent and approved the data sharing initiative.
 
 ### MIMIC-III
 The dataset contains 26 tables of deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside, laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (including post-hospital discharge) . Of the 26 tables, five tables are used to define and another five tables are dictionaries for cross-referencing codes against their respective definitions with the remaining tables containing data associated with patient care, such as physiological measurements, caregiver observations, and billing information.
@@ -31,16 +41,26 @@ There are 4 tables in the dataset that can be grouped into two categories  disch
 
 - Link: https://physionet.org/content/mimic-iv-note/2.2/
 
-# Model
+# Model - MedLM prompts
+
+MedLM-large is a foundation model for medical question answering and summarization. You can access the models using the Vertex AI MedLM API.
+To interact with the MedLM models, you send natural language instructions, also called prompts, that tell the model what you want it to generate. However, LLMs can sometimes behave in unpredictable ways.
 
 
+# Method
+
+Interact with MedLM API using: Vertex AI SDK for Python
 
 # Evaluation
+Cosine Similarity
 
+
+Bleu and Rogue Scores
 
 
 # Results
 - Aim: Streamlined Analysis and detailed summaries of medical records and qualtity of patient care with MedLM
+
 
 
 # Sponsor : Deloitte
