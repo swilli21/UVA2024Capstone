@@ -50,6 +50,7 @@ To interact with the MedLM models, you send natural language instructions, also 
 # Method
 
 Interact with MedLM API using: Vertex AI SDK for Python
+Install and authorize Google Cloud SDK ; Google Cloud Client : https://cloud.google.com/sdk/docs/install-sdk#linux
 
 # Evaluation
 Cosine Similarity
