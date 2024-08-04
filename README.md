@@ -63,7 +63,7 @@ To interact with the MedLM models, you send natural language instructions, also 
 
 -- Define your natural language query
 
--- Generate SQL and execute query/question out
+-- Generate SQL and execute query/question output
 
 -- Initialize Google Cloud aiplatform client that will be used to create and send requests to the MedLM model to summary rag text from the generated sql.
 
