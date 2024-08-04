@@ -130,6 +130,9 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 
 Where: 'r' - recall score ; 'p' - precision ; 'f' - f1 score
 
+<img width="382" alt="Screenshot 2024-08-03 at 7 29 27 PM" src="https://github.com/user-attachments/assets/3ee1e808-3033-4382-a36a-88a608670890">
+
+
 # Sponsor : Deloitte
 <img width="487" alt="Screenshot 2024-07-04 at 6 58 27 PM" src="https://github.com/swilli21/UVA2024Capstone/assets/51794492/c4c38a31-5999-41e2-ae69-df09738bb175">
 
