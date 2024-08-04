@@ -53,7 +53,17 @@ To interact with the MedLM models, you send natural language instructions, also 
 
 -- Install Google Cloud AI Platform and authorize Google Cloud Client
 
--- 
+-- Use Big Query to connect to the database
+
+-- Use NLP techniques to extract keywords
+
+-- Once list of potential keywords are generated, use TF-IDF to assign respective weights
+
+-- Create SQLDatabase instance and SQLDatabaseChain
+
+-- Define your natural language query
+
+-- Generate SQL and execute query/question out
 
 # Evaluation
 
@@ -68,19 +78,17 @@ Cosine Calculation: Once we have the vectors, we calculate the cosine of the ang
 Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the rag text. If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
 
 ### Metric: Bleu (Recall-Oriented Understudy for Gisting Evaluation) and Rogue Scores
-In general:
 
-BLEU focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
-
-ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
-- Bleu score is a metric that measures how similar machine-translated text is to a set of human-created reference translations.
+- Bleu score is a metric that measures how similar machine-translated text is to a set of human-created reference translations. It focuses on precision
   
 Interpretation: The score is a number between 0 and 1, with higher scores indicating closer matches to the reference text. A score of 0 means there is no overlap between the machine-translated text and the reference translation, while a score of 1 indicates perfect overlap.
 
-- ROUGE focuses on recall, measuring how well the generated text covers the key information present in the rag text.
+- ROUGE focuses on recall, measuring how well the generated text covers the key information present in the rag text. It focuses on recall.
 
 ROUGE variants: each variant calculates the recall of the generated text compared to the reference text.
 - ROUGE-N (measuring the overlap of n-grams)
+-   ROUGE-1 compute the precision, recall, and F1-score of the matching n-grams.
+-   ROUGE-2 precision is the ratio of the number of 2-grams
 - ROUGE-L (measuring the longest common subsequence)
 - ROUGE-S (measuring the number of overlapping sentences).
 
@@ -109,5 +117,6 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 - https://cloud.google.com/vertex-ai/generative-ai/docs/medlm/medlm-prompts
 - https://cloud.google.com/sdk/docs/install-sdk#linux
 - https://api.python.langchain.com/en/latest/sql/langchain_experimental.sql.base.SQLDatabaseChain.html
+- https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/
 
 
