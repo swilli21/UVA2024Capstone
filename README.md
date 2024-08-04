@@ -101,7 +101,7 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
   2. detailed summaries of medical records - EDA
   3. qualtity of patient care with MedLM - Results
 
-#### Cosine Similarity
+###### Cosine Similarity
 
 | Weights       | Fine Tuned    |  Base Model   |
 | ------------- | ------------- | ------------- |
