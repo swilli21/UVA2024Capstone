@@ -87,10 +87,9 @@ Interpretation: The score is a number between 0 and 1, with higher scores indica
 
 ROUGE variants: each variant calculates the recall of the generated text compared to the reference text.
 - ROUGE-N (measuring the overlap of n-grams)
--   ROUGE-1 compute the precision, recall, and F1-score of the matching n-grams.
--   ROUGE-2 precision is the ratio of the number of 2-grams
+  - ROUGE-1 compute the precision, recall, and F1-score of the matching n-grams.
+  - ROUGE-2 precision is the ratio of the number of 2-grams
 - ROUGE-L (measuring the longest common subsequence)
-- ROUGE-S (measuring the number of overlapping sentences).
 
 Interpretation: A higher ROUGE score indicates that the MedLM output captures more of the important information from the rag text.
 
@@ -108,6 +107,14 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 | Vector        | 0.6443155     | 0.5431788563  |
 | Multimodal    | Content Cell  | Content Cell  |
 
+#### Bleu and Rouge Scores
+
+|      Model    | Bleu          |  rouge-1      |  rouge-2      |  rouge-l      |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Fine Tuned    | 9.157e-232    |'r':0.583,'p':0.103,'f':0.1245 |r':0,'p':0,'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
+| Base Model    | 9.157e-232    |'r':0.583,'p':0.103,'f':0.1245 |r':0,'p':0,'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
+
+Where: 'r' - recall score ; 'p' - precision ; 'f' - f1 score
 
 # Sponsor : Deloitte
 <img width="487" alt="Screenshot 2024-07-04 at 6 58 27 PM" src="https://github.com/swilli21/UVA2024Capstone/assets/51794492/c4c38a31-5999-41e2-ae69-df09738bb175">
