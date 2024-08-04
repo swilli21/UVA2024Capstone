@@ -85,7 +85,7 @@ Interpretation: A higher cosine similarity score indicates a greater degree of s
   
 Interpretation: The score is a number between 0 and 1, with higher scores indicating closer matches to the reference text. A score of 0 means there is no overlap between the machine-translated text and the reference translation, while a score of 1 indicates perfect overlap.
 
-- ROUGE focuses on recall, measuring how well the generated text covers the key information present in the rag text. It focuses on recall.
+- ROUGE focuses on recall, measuring how well the generated text covers the key information present in the rag text. 
 
 ROUGE variants: each variant calculates the recall of the generated text compared to the reference text.
 - ROUGE-N (measuring the overlap of n-grams)
