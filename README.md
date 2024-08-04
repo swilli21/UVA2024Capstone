@@ -106,7 +106,7 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 | Weights       | Fine Tuned    |  Base Model   |
 | ------------- | ------------- | ------------- |
 | Keyword       | 0.7915050387  | 0.5856082439  |
-| Vector        | 0.6443155     | 0.5431788563  |
+| Vector        | 0.77877474    | 0.5431788563  |
 | Multimodal    | Content Cell  | Content Cell  |
 
 #### Bleu and Rouge Scores
@@ -119,8 +119,8 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 ###### Vector Weights
 |      Model    | Bleu          |  Rouge-1      |  Rouge-2      |  Rouge-L      |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Fine Tuned    | 9.157e-232    |'r':0.583, 'p':0.103, 'f':0.1245 |r':0, 'p':0, 'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
-| Base Model    | 9.157e-232    |'r':0.583, 'p':0.103, 'f':0.1245 |r':0, 'p':0, 'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
+| Fine Tuned    | 9.947e-232    |'r':0.45, 'p':0.15, 'f':0.22 |r':0, 'p':0, 'f':0 |'r':0.36, 'p':0.12, 'f':0.18 |
+| Base Model    | 9.947e-232    |'r':0.45, 'p':0.15, 'f':0.22 |r':0, 'p':0, 'f':0 |'r':0.36, 'p':0.12, 'f':0.18 |
 
 ###### Multimodal Weights
 |      Model    | Bleu          |  Rouge-1      |  Rouge-2      |  Rouge-L      |
