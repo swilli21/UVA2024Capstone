@@ -57,15 +57,26 @@ To interact with the MedLM models, you send natural language instructions, also 
 
 # Evaluation
 
+### Metric: Cosine Similarity
+- Cosine similarity works best when the rag text and MedLM output are semantically related. 
 
-| Weights       | Cosine Similarity |
-| ------------- | ------------- |
-| Keyword       | Content Cell  |
-| Vector        | Content Cell  |
-| Multimodal    | Content Cell  |
+If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
 
-- Bleu and Rogue Scores
+Cosine Calculation: Once we have the vectors, we calculate the cosine of the angle between them. The cosine value ranges from -1 to 1:
+- 1: The vectors are perfectly aligned (identical).
+- 0: The vectors are orthogonal (completely different).
+- -1: The vectors are perfectly opposite.
 
+Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the reference text.
+
+### Metric: Bleu (Recall-Oriented Understudy for Gisting Evaluation) and Rogue Scores
+ROUGE focuses on recall, measuring how well the generated text covers the key information present in the reference text.
+
+Different ROUGE variants: ROUGE offers several variants, including ROUGE-N (measuring the overlap of n-grams), ROUGE-L (measuring the longest common subsequence), and ROUGE-S (measuring the number of overlapping sentences).
+
+Recall calculation: Each variant calculates the recall of the generated text compared to the reference text.
+
+Interpretation: A higher ROUGE score indicates that the MedLM output captures more of the important information from the reference text.
 
 # Results
 - Aim:
@@ -73,6 +84,12 @@ To interact with the MedLM models, you send natural language instructions, also 
   2. detailed summaries of medical records 
   3. qualtity of patient care with MedLM
 
+
+| Weights       | Fine Tuned    |  Base Model   |
+| ------------- | ------------- | ------------- |
+| Keyword       | 0.7915050387  | 0.5856082439  |
+| Vector        | 0.6443155     | 0.5431788563  |
+| Multimodal    | Content Cell  | Content Cell  |
 
 
 # Sponsor : Deloitte
