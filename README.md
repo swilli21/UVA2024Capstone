@@ -97,9 +97,9 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 
 # Results
 - Aim:
-  1. Streamlined Analysis
-  2. detailed summaries of medical records 
-  3. qualtity of patient care with MedLM
+  1. Streamlined Analysis - Method
+  2. detailed summaries of medical records - EDA
+  3. qualtity of patient care with MedLM - Results
 
 #### Cosine Similarity
 
