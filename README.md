@@ -56,13 +56,15 @@ To interact with the MedLM models, you send natural language instructions, also 
 -- 
 
 # Evaluation
-Weights            |Cosine Similarity      |
-                   |Fine Tuned | Base Model|
-Keyword            |           |           |
-Vector             |           |           |
-Multimodal         |           |           |
 
-Bleu and Rogue Scores
+
+| Weights       | Cosine Similarity |
+| ------------- | ------------- |
+| Keyword       | Content Cell  |
+| Vector        | Content Cell  |
+| Multimodal    | Content Cell  |
+
+- Bleu and Rogue Scores
 
 
 # Results
