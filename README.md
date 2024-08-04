@@ -111,8 +111,8 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 
 |      Model    | Bleu          |  rouge-1      |  rouge-2      |  rouge-l      |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Fine Tuned    | 9.157e-232    |'r':0.583,'p':0.103,'f':0.1245 |r':0,'p':0,'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
-| Base Model    | 9.157e-232    |'r':0.583,'p':0.103,'f':0.1245 |r':0,'p':0,'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
+| Fine Tuned    | 9.157e-232    |'r':0.583, 'p':0.103, 'f':0.1245 |r':0, 'p':0, 'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
+| Base Model    | 9.157e-232    |'r':0.583, 'p':0.103, 'f':0.1245 |r':0, 'p':0, 'f':0 |'r': 0.416, 'p':0.074, 'f':0.125 |
 
 Where: 'r' - recall score ; 'p' - precision ; 'f' - f1 score
 
