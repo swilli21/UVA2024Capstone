@@ -68,6 +68,11 @@ Cosine Calculation: Once we have the vectors, we calculate the cosine of the ang
 Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the rag text. If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
 
 ### Metric: Bleu (Recall-Oriented Understudy for Gisting Evaluation) and Rogue Scores
+In general:
+
+BLEU focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
+
+ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
 - Bleu score is a metric that measures how similar machine-translated text is to a set of human-created reference translations.
   
 Interpretation: The score is a number between 0 and 1, with higher scores indicating closer matches to the reference text. A score of 0 means there is no overlap between the machine-translated text and the reference translation, while a score of 1 indicates perfect overlap.
