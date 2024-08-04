@@ -68,6 +68,10 @@ Cosine Calculation: Once we have the vectors, we calculate the cosine of the ang
 Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the rag text. If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
 
 ### Metric: Bleu (Recall-Oriented Understudy for Gisting Evaluation) and Rogue Scores
+- Bleu score is a metric that measures how similar machine-translated text is to a set of human-created reference translations.
+  
+Interpretation: The score is a number between 0 and 1, with higher scores indicating closer matches to the reference text. A score of 0 means there is no overlap between the machine-translated text and the reference translation, while a score of 1 indicates perfect overlap.
+
 - ROUGE focuses on recall, measuring how well the generated text covers the key information present in the rag text.
 
 ROUGE variants: each variant calculates the recall of the generated text compared to the reference text.
@@ -99,5 +103,6 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 - https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry
 - https://cloud.google.com/vertex-ai/generative-ai/docs/medlm/medlm-prompts
 - https://cloud.google.com/sdk/docs/install-sdk#linux
+- https://api.python.langchain.com/en/latest/sql/langchain_experimental.sql.base.SQLDatabaseChain.html
 
 
