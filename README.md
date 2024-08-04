@@ -96,7 +96,7 @@ ROUGE variants: each variant calculates the recall of the generated text compare
 Interpretation: A higher ROUGE score indicates that the MedLM output captures more of the important information from the rag text.
 
 # Results
-- Aim:
+- Goal:
   1. Streamlined Analysis - Method
   2. detailed summaries of medical records - EDA
   3. qualtity of patient care with MedLM - Results
