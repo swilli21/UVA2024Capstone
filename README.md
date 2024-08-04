@@ -60,26 +60,22 @@ To interact with the MedLM models, you send natural language instructions, also 
 ### Metric: Cosine Similarity
 - Cosine similarity works best when the rag text and MedLM output are semantically related. 
 
-If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
-
 Cosine Calculation: Once we have the vectors, we calculate the cosine of the angle between them. The cosine value ranges from -1 to 1:
 - 1: The vectors are perfectly aligned (identical).
 - 0: The vectors are orthogonal (completely different).
 - -1: The vectors are perfectly opposite.
 
-Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the reference text.
+Interpretation: A higher cosine similarity score indicates a greater degree of similarity between the model's output and the rag text. If they are discussing completely different topics, the similarity score will be low, even if the words are similar.
 
 ### Metric: Bleu (Recall-Oriented Understudy for Gisting Evaluation) and Rogue Scores
 - ROUGE focuses on recall, measuring how well the generated text covers the key information present in the reference text.
 
-ROUGE variants:
----  ROUGE-N (measuring the overlap of n-grams)
----  ROUGE-L (measuring the longest common subsequence)
----  ROUGE-S (measuring the number of overlapping sentences).
+ROUGE variants: each variant calculates the recall of the generated text compared to the reference text.
+- ROUGE-N (measuring the overlap of n-grams)
+- ROUGE-L (measuring the longest common subsequence)
+- ROUGE-S (measuring the number of overlapping sentences).
 
-- Recall calculation: Each variant calculates the recall of the generated text compared to the reference text.
-
-- Interpretation: A higher ROUGE score indicates that the MedLM output captures more of the important information from the reference text.
+Interpretation: A higher ROUGE score indicates that the MedLM output captures more of the important information from the rag text.
 
 # Results
 - Aim:
