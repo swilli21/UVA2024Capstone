@@ -55,15 +55,17 @@ To interact with the MedLM models, you send natural language instructions, also 
 
 -- Use Big Query to connect to the database
 
--- Use NLP techniques to extract keywords
+-- (optional) Use NLP techniques to extract keywords
 
--- Once list of potential keywords are generated, use TF-IDF to assign respective weights
+-- (optional) Once list of potential keywords are generated, use TF-IDF to assign respective weights
 
 -- Create SQLDatabase instance and SQLDatabaseChain
 
 -- Define your natural language query
 
 -- Generate SQL and execute query/question out
+
+-- Initialize Google Cloud aiplatform client that will be used to create and send requests to the MedLM model to summary rag text from the generated sql.
 
 # Evaluation
 
