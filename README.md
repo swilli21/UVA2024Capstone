@@ -105,7 +105,7 @@ Interpretation: A higher ROUGE score indicates that the MedLM output captures mo
 
 | Weights       | Fine Tuned    |  Base Model   |
 | ------------- | ------------- | ------------- |
-| Keyword       | 0.7291460037  | 0.7106310129  |
+| Keyword       | 0.7291460037  | 0.6952417492  |
 | Vector        | 0.77877474    | 0.5431788563  |
 | Multimodal    | Content Cell  | Content Cell  |
 
